@@ -35,7 +35,6 @@ function App() {
   }
   
   const submitForm = () => {
-   debugger;
     const newMember = {name: formValues.name.trim(),
     email: formValues.email.trim(),
     role: formValues.role,
